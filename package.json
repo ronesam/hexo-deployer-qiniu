@@ -1,0 +1,37 @@
+{
+  "name": "hexo-deployer-qiniu",
+  "version": "0.1.2",
+  "description": "Qiniu deployer plugin of Hexo.",
+  "main": "index",
+  "dependencies": {
+    "colors": "^1.1.0",
+    "crypto": "0.0.3",
+    "hexo-util": "^0.1.6",
+    "node-qiniu": "^6.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronesam/hexo-deployer-qiniu.git"
+  },
+  "keywords": [
+    "Hexo",
+    "qiniu",
+    "sync",
+    "static",
+    "image",
+    "javascripts",
+    "stylesheet"
+  ],
+  "author": {
+    "name": "ronesam",
+    "email": "ronesam@qq.com",
+    "url": "http://ronesam.com/"
+  },
+  "license": "MIT",
+  "readme": "This's a deployer plugin of Hexo. base on hexo-qiniu-sync.本插件是Hexo的上传插件，基于hexo-qiniu-sync，删除了很多特性，只保留了最纯粹的同步功能，用作上传静态文件到七牛。",
+  "readmeFilename": "README.md"
+}
